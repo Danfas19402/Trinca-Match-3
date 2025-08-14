@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TRINCA — Jogo Match-3</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>🧩 TRINCA Match-3</h1>
+    <div class="panel">
+      <div class="stat"><span>Pontos:</span> <strong id="score">0</strong></div>
+      <div class="stat"><span>Movimentos:</span> <strong id="moves">0</strong></div>
+      <button id="newGame" class="btn">Novo Jogo</button>
+      <button id="shuffle" class="btn btn-ghost">Embaralhar</button>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <div id="board" class="board"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Dica: troque duas peças vizinhas para formar uma <strong>trinca</strong> (3 ou mais iguais).</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
